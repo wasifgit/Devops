@@ -2,3 +2,5 @@ docker login
 enter docker hub user name password
 
 docker run -d -v jenkins_home:/var/jenkins_home -p 8080:8080 -p 50000:50000 --restart=on-failure jenkins/jenkins:latest
+
+c4cffe3b8d3c4c048da790e16cf0a641
